@@ -21,12 +21,13 @@
 title: Minimal
 email: blog@minimal.com
 description: "Esse é um blog minimalista para aprender a usar o Jekyll"
-baseurl: "/blog-minimalista" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavogcdo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # permalink: /:categories/:year/:month/:day/:title
 permalink: /:title
+markdown: kramdown
 plugins:
   - jekyll-feed
 
